@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "2d";
+    src: url(Fonts/2\ Davat.ttf) format(truetype)
+}
+
+@font-face{
+    font-family: "lz";
+    src: url(Fonts/Lalezar-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family: "bn";
+    src: url(Fonts/B\ Nazanin-.ttf) format(truetype);
+}
+
+.header{
+    height: 700px;
+    background-image: url(image/ellie\ between\ trouble.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "2d";
+    
+    
+}
+.nav-list{
+    list-style-type: none;
+   
+}
+h1{
+    padding-top: 30px;
+    font-size: 40px;
+    
+}
+.p1{
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: "bn";
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px wheat solid;
+    text-shadow: 0 0 30px black;
+}
+.nav-item{
+    display: inline-block;
+    padding: 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+.nav-item:hover{
+   color:  white;
+   color: orange;
+}
+span{
+    color: orange;
+    font-size: 70px;
+}
+.members {
+    text-align: center;
+    padding: 20px 30px ;
+    font-family: "2d";
+    font-size: 25px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    background-image: url(image/The\ Last\ of\ Us\ 2\ .jpg);
+}
+.members-list{
+    list-style-type: none;
+    
+}
+.members{
+    height: 750px;
+    background-image: url(image/ellie\ between\ trouble\ reflex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+.members-item{
+    width: 350px;
+    display: inline-block;
+    padding: 10px;    
+}
+.members-bio{
+    font-family: "bn";
+    border: 2px white double;
+    padding: 10px;
+    font-size: medium;
+    background-color: rgba(48, 32, 32, 0.6);
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;    
+    box-shadow: 0 0 10px rgb(172, 172, 172) ;
+}
+.members-name{
+    font-family: "bn";
+    border: 2px white double;
+    margin-bottom: 5px;
+    font-size: medium;
+    background-color: rgba(48, 32, 32, 0.6);
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;  
+
+}
+h2{
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgba(48, 32, 32, 0.6);
+    border: 3px white double;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;    
+    box-shadow: 0 0 10px rgb(172, 172, 172) ;
+}
+.members-pic{
+    margin-top: 70px;
+    border-radius: 50%;
+    border: 4px white double;
+    box-shadow: 0 0 10px rgb(172, 172, 172) ;
+}
+
+.about{
+    height: 750px;
+    background-image: url(image/spider-man-wallpaper-4k.jpg);
+    background-size: cover;
+    padding-top: 190px;
+    background-color:#07ff07;
+    mix-blend-mode: multiply;
+    
+ 
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    padding: 30px 60px;  
+    border-radius: 50%;
+    background:  rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgb(149, 103, 103) ;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.circle p{
+    font-family: "bn";
+    color: white;
+    text-shadow: 1px 2px rgba(0, 0, 0 );
+    border-radius: 50%;
+    
+}
+.circle h3{
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0 );
+    font-size: 25px;
+    font-family: "2d";
+
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    margin-top: 40px;
+    
+    
+}
+.soical {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "2d";
+    font-size: 20px;
+    color: white;
+}
+.soical img{
+    border-radius: 50%;
+}
